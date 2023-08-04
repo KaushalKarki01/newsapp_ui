@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:newsapp/pages/tabs/allnews.dart';
+import 'package:newsapp/pages/tabs/businessnews.dart';
+import 'package:newsapp/pages/tabs/entertainment.dart';
+import 'package:newsapp/pages/tabs/political.dart';
 import 'package:newsapp/pages/tabs/popular.dart';
+import 'package:newsapp/pages/tabs/sports.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -32,21 +37,11 @@ class HomePage extends StatelessWidget {
           body: TabBarView(
             children: [
               PopularPage(),
-              Center(
-                child: Text('All'),
-              ),
-              Center(
-                child: Text('Politics'),
-              ),
-              Center(
-                child: Text('Sports'),
-              ),
-              Center(
-                child: Text('Entertainment'),
-              ),
-              Center(
-                child: Text('Business'),
-              ),
+              AllNews(),
+              PoliticalNews(),
+              SportsNews(),
+              EntertainmentNews(),
+              BusinessNews(),
             ],
           ),
         ));
