@@ -10,17 +10,17 @@ final List dummyNews = [
     'imgUrl':
         'https://ichef.bbci.co.uk/news/976/cpsprodpb/AF92/production/_124164944_gettyimages-501782322.jpg.webp',
   },
-  {
-    'headline':
-        '2 U.S. Navy sailors arrested on charges of sharing sensitive data with China',
-    'imgUrl':
-        'https://images.axios.com/hP8PhvHsTcbv6DzNqKwGF8lKEU0=/0x458:5183x3373/1920x1080/2023/08/03/1691101527898.jpg?w=1920',
-  },
-  {
-    'headline': 'Skylar Diggins-Smith says she can\'t use Mercury facilities',
-    'imgUrl':
-        'https://media.12news.com/assets/KPNX/images/dae52ccc-6790-4160-82bd-494c48ebf718/dae52ccc-6790-4160-82bd-494c48ebf718_1140x641.jpg',
-  },
+  // {
+  //   'headline':
+  //       '2 U.S. Navy sailors arrested on charges of sharing sensitive data with China',
+  //   'imgUrl':
+  //       'https://cdn.cfr.org/sites/default/files/styles/immersive_image_3_2_desktop_2x/public/image/2019/08/Navy.jpg.webp',
+  // },
+  // {
+  //   'headline': 'Skylar Diggins-Smith says she can\'t use Mercury facilities',
+  //   'imgUrl':
+  //       'https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2491205.png&w=350&h=254',
+  // },
   {
     'headline':
         'What you should know about the latest Covid-19 surge. A doctor explains',
